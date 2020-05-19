@@ -23,7 +23,6 @@ Write a Suite with the following specs
 
 
 
-
 /*
 describe('Testing lookup func', () => {
     test("lookup(username, property) should return likes for the specified user.", () => {
@@ -39,7 +38,7 @@ describe('Testing lookup func', () => {
       expect(actual).toBeLessThan(100);
     });
 
-    it("lookup(username, property) with unknown user should throw an error with the correct message", () => {
+    test("lookup(username, property) with unknown user should throw an error with the correct message", () => {
       expect(() => {
         lookup('nobody', 'likes');
       }).toThrowError("Could not find user");

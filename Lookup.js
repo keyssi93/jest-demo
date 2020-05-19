@@ -10,13 +10,6 @@ const users = [
       likes: ['Javascript', 'Python', 'C'],
     },
     {
-      userName: 'aniki',
-      firstName: 'Billy',
-      lastName: 'Herrington',
-      age: 50,
-      likes: ['C#', 'Ruby', 'Go', 'Kotlin'],
-    },
-    {
       userName: 'kovrov',
       firstName: 'Abdel',
       lastName: 'Osman',
